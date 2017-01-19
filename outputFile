@@ -1,0 +1,2400 @@
+TASLock Time taken for 2 threads with mean 10 is :159
+2000
+ 
+ Performance counter stats for 'java TASLock 2 10':
+
+       143,663,160 L1-dcache-loads                                             
+        17,270,188 L1-dcache-load-misses     #   12.02% of all L1-dcache hits  
+         5,755,280 LLC-loads                                                   
+           882,380 LLC-load-misses           #   15.33% of all LL-cache hits   
+
+       0.268035775 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 10 is :161
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 10':
+
+       143,615,289 L1-dcache-loads                                             
+        17,372,965 L1-dcache-load-misses     #   12.10% of all L1-dcache hits  
+         5,702,872 LLC-loads                                                   
+           862,701 LLC-load-misses           #   15.13% of all LL-cache hits   
+
+       0.231268907 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 10 is :223
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 10':
+
+       256,949,661 L1-dcache-loads                                             
+        22,489,213 L1-dcache-load-misses     #    8.75% of all L1-dcache hits  
+         7,596,423 LLC-loads                                                   
+         1,007,999 LLC-load-misses           #   13.27% of all LL-cache hits   
+
+       0.334587437 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 10 is :151
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 10':
+
+       147,468,486 L1-dcache-loads                                             
+        18,378,400 L1-dcache-load-misses     #   12.46% of all L1-dcache hits  
+         6,371,775 LLC-loads                                                   
+           863,762 LLC-load-misses           #   13.56% of all LL-cache hits   
+
+       0.211304608 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 10 is :306
+4000
+ 
+ Performance counter stats for 'java TASLock 4 10':
+
+       243,443,993 L1-dcache-loads                                             
+        32,400,922 L1-dcache-load-misses     #   13.31% of all L1-dcache hits  
+        10,862,650 LLC-loads                                                   
+         1,509,201 LLC-load-misses           #   13.89% of all LL-cache hits   
+
+       0.365673515 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 10 is :295
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 10':
+
+       244,001,464 L1-dcache-loads                                             
+        32,524,677 L1-dcache-load-misses     #   13.33% of all L1-dcache hits  
+        10,749,702 LLC-loads                                                   
+         1,521,916 LLC-load-misses           #   14.16% of all LL-cache hits   
+
+       0.355505726 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 10 is :355
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 10':
+
+       363,515,582 L1-dcache-loads                                             
+        41,289,419 L1-dcache-load-misses     #   11.36% of all L1-dcache hits  
+        14,156,763 LLC-loads                                                   
+         1,861,803 LLC-load-misses           #   13.15% of all LL-cache hits   
+
+       0.419403686 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 10 is :297
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 10':
+
+       247,477,894 L1-dcache-loads                                             
+        33,955,243 L1-dcache-load-misses     #   13.72% of all L1-dcache hits  
+        11,814,604 LLC-loads                                                   
+         1,614,695 LLC-load-misses           #   13.67% of all LL-cache hits   
+
+       0.357879829 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 10 is :587
+8000
+ 
+ Performance counter stats for 'java TASLock 8 10':
+
+       425,567,154 L1-dcache-loads                                             
+        60,362,781 L1-dcache-load-misses     #   14.18% of all L1-dcache hits  
+        20,037,332 LLC-loads                                                   
+         2,991,840 LLC-load-misses           #   14.93% of all LL-cache hits   
+
+       0.647385199 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 10 is :592
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 10':
+
+       424,286,157 L1-dcache-loads                                             
+        60,530,125 L1-dcache-load-misses     #   14.27% of all L1-dcache hits  
+        20,534,655 LLC-loads                                                   
+         2,955,914 LLC-load-misses           #   14.39% of all LL-cache hits   
+
+       0.652100154 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 10 is :826
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 10':
+
+       878,259,965 L1-dcache-loads                                             
+        74,187,144 L1-dcache-load-misses     #    8.45% of all L1-dcache hits  
+        25,205,431 LLC-loads                                                   
+         3,367,495 LLC-load-misses           #   13.36% of all LL-cache hits   
+
+       0.889800010 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 10 is :596
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 10':
+
+       436,725,302 L1-dcache-loads                                             
+        64,690,583 L1-dcache-load-misses     #   14.81% of all L1-dcache hits  
+        22,832,990 LLC-loads                                                   
+         3,049,850 LLC-load-misses           #   13.36% of all LL-cache hits   
+
+       0.654591861 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 10 is :1269
+16000
+ 
+ Performance counter stats for 'java TASLock 16 10':
+
+       801,507,549 L1-dcache-loads                                             
+       103,080,975 L1-dcache-load-misses     #   12.86% of all L1-dcache hits  
+        36,034,034 LLC-loads                                                   
+         5,842,771 LLC-load-misses           #   16.21% of all LL-cache hits   
+
+       1.330355454 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 10 is :1199
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 10':
+
+       815,245,516 L1-dcache-loads                                             
+       105,657,978 L1-dcache-load-misses     #   12.96% of all L1-dcache hits  
+        37,554,172 LLC-loads                                                   
+         6,023,163 LLC-load-misses           #   16.04% of all LL-cache hits   
+
+       1.262426428 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 10 is :1518
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 10':
+
+     1,386,288,601 L1-dcache-loads                                             
+       124,857,941 L1-dcache-load-misses     #    9.01% of all L1-dcache hits  
+        44,633,893 LLC-loads                                                   
+         6,661,584 LLC-load-misses           #   14.92% of all LL-cache hits   
+
+       1.594310732 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 10 is :1254
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 10':
+
+       944,920,556 L1-dcache-loads                                             
+       116,130,047 L1-dcache-load-misses     #   12.29% of all L1-dcache hits  
+        43,904,008 LLC-loads                                                   
+         6,336,488 LLC-load-misses           #   14.43% of all LL-cache hits   
+
+       1.327343479 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 10 is :2346
+32000
+ 
+ Performance counter stats for 'java TASLock 32 10':
+
+     1,263,980,290 L1-dcache-loads                                             
+       166,121,320 L1-dcache-load-misses     #   13.14% of all L1-dcache hits  
+        61,291,769 LLC-loads                                                   
+        11,234,780 LLC-load-misses           #   18.33% of all LL-cache hits   
+
+       2.408385536 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 10 is :2349
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 10':
+
+     1,269,595,788 L1-dcache-loads                                             
+       167,353,008 L1-dcache-load-misses     #   13.18% of all L1-dcache hits  
+        62,726,934 LLC-loads                                                   
+        11,466,770 LLC-load-misses           #   18.28% of all LL-cache hits   
+
+       2.411241428 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 10 is :3046
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 10':
+
+     2,516,727,191 L1-dcache-loads                                             
+       199,801,512 L1-dcache-load-misses     #    7.94% of all L1-dcache hits  
+        72,611,778 LLC-loads                                                   
+        12,791,998 LLC-load-misses           #   17.62% of all LL-cache hits   
+
+       3.111349087 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 10 is :2745
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 10':
+
+     1,931,167,529 L1-dcache-loads                                             
+       191,076,124 L1-dcache-load-misses     #    9.89% of all L1-dcache hits  
+        71,417,957 LLC-loads                                                   
+        12,396,358 LLC-load-misses           #   17.36% of all LL-cache hits   
+
+       2.809061819 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 20 is :148
+2000
+ 
+ Performance counter stats for 'java TASLock 2 20':
+
+       142,941,729 L1-dcache-loads                                             
+        17,316,601 L1-dcache-load-misses     #   12.11% of all L1-dcache hits  
+         5,755,644 LLC-loads                                                   
+           877,236 LLC-load-misses           #   15.24% of all LL-cache hits   
+
+       0.207942959 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 20 is :149
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 20':
+
+       142,925,013 L1-dcache-loads                                             
+        17,358,181 L1-dcache-load-misses     #   12.14% of all L1-dcache hits  
+         5,721,676 LLC-loads                                                   
+           830,954 LLC-load-misses           #   14.52% of all LL-cache hits   
+
+       0.209096193 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 20 is :242
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 20':
+
+       328,339,295 L1-dcache-loads                                             
+        22,613,008 L1-dcache-load-misses     #    6.89% of all L1-dcache hits  
+         7,689,741 LLC-loads                                                   
+         1,025,665 LLC-load-misses           #   13.34% of all LL-cache hits   
+
+       0.305498436 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 20 is :153
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 20':
+
+       147,601,851 L1-dcache-loads                                             
+        18,369,903 L1-dcache-load-misses     #   12.45% of all L1-dcache hits  
+         6,320,477 LLC-loads                                                   
+           882,856 LLC-load-misses           #   13.97% of all LL-cache hits   
+
+       0.213672253 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 20 is :294
+4000
+ 
+ Performance counter stats for 'java TASLock 4 20':
+
+       242,630,160 L1-dcache-loads                                             
+        32,408,415 L1-dcache-load-misses     #   13.36% of all L1-dcache hits  
+        10,813,294 LLC-loads                                                   
+         1,538,853 LLC-load-misses           #   14.23% of all LL-cache hits   
+
+       0.354891886 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 20 is :297
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 20':
+
+       243,512,039 L1-dcache-loads                                             
+        32,285,702 L1-dcache-load-misses     #   13.26% of all L1-dcache hits  
+        10,785,508 LLC-loads                                                   
+         1,538,003 LLC-load-misses           #   14.26% of all LL-cache hits   
+
+       0.357224088 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 20 is :388
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 20':
+
+       423,415,914 L1-dcache-loads                                             
+        41,313,610 L1-dcache-load-misses     #    9.76% of all L1-dcache hits  
+        13,702,353 LLC-loads                                                   
+         1,889,543 LLC-load-misses           #   13.79% of all LL-cache hits   
+
+       0.452372262 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 20 is :297
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 20':
+
+       247,964,931 L1-dcache-loads                                             
+        34,153,298 L1-dcache-load-misses     #   13.77% of all L1-dcache hits  
+        12,064,037 LLC-loads                                                   
+         1,614,663 LLC-load-misses           #   13.38% of all LL-cache hits   
+
+       0.358922414 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 20 is :594
+8000
+ 
+ Performance counter stats for 'java TASLock 8 20':
+
+       424,452,649 L1-dcache-loads                                             
+        60,641,816 L1-dcache-load-misses     #   14.29% of all L1-dcache hits  
+        20,728,645 LLC-loads                                                   
+         2,994,412 LLC-load-misses           #   14.45% of all LL-cache hits   
+
+       0.654894720 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 20 is :595
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 20':
+
+       423,075,380 L1-dcache-loads                                             
+        60,526,751 L1-dcache-load-misses     #   14.31% of all L1-dcache hits  
+        20,574,539 LLC-loads                                                   
+         2,960,928 LLC-load-misses           #   14.39% of all LL-cache hits   
+
+       0.656558101 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 20 is :841
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 20':
+
+       909,124,250 L1-dcache-loads                                             
+        74,725,758 L1-dcache-load-misses     #    8.22% of all L1-dcache hits  
+        25,626,986 LLC-loads                                                   
+         3,401,181 LLC-load-misses           #   13.27% of all LL-cache hits   
+
+       0.905635720 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 20 is :583
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 20':
+
+       430,257,898 L1-dcache-loads                                             
+        63,870,745 L1-dcache-load-misses     #   14.84% of all L1-dcache hits  
+        22,471,084 LLC-loads                                                   
+         2,997,874 LLC-load-misses           #   13.34% of all LL-cache hits   
+
+       0.644254061 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 20 is :1158
+16000
+ 
+ Performance counter stats for 'java TASLock 16 20':
+
+       809,733,147 L1-dcache-loads                                             
+       105,335,918 L1-dcache-load-misses     #   13.01% of all L1-dcache hits  
+        37,485,572 LLC-loads                                                   
+         5,849,166 LLC-load-misses           #   15.60% of all LL-cache hits   
+
+       1.220339118 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 20 is :1190
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 20':
+
+       807,761,053 L1-dcache-loads                                             
+       105,173,162 L1-dcache-load-misses     #   13.02% of all L1-dcache hits  
+        37,315,833 LLC-loads                                                   
+         5,899,171 LLC-load-misses           #   15.81% of all LL-cache hits   
+
+       1.252227394 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 20 is :1463
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 20':
+
+     1,292,252,126 L1-dcache-loads                                             
+       125,499,303 L1-dcache-load-misses     #    9.71% of all L1-dcache hits  
+        44,976,052 LLC-loads                                                   
+         6,825,917 LLC-load-misses           #   15.18% of all LL-cache hits   
+
+       1.538554071 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 20 is :1365
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 20':
+
+     1,163,254,584 L1-dcache-loads                                             
+       118,911,306 L1-dcache-load-misses     #   10.22% of all L1-dcache hits  
+        43,647,592 LLC-loads                                                   
+         6,498,660 LLC-load-misses           #   14.89% of all LL-cache hits   
+
+       1.431654632 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 20 is :2300
+32000
+ 
+ Performance counter stats for 'java TASLock 32 20':
+
+     1,279,559,521 L1-dcache-loads                                             
+       169,290,660 L1-dcache-load-misses     #   13.23% of all L1-dcache hits  
+        63,520,844 LLC-loads                                                   
+        11,402,419 LLC-load-misses           #   17.95% of all LL-cache hits   
+
+       2.361709723 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 20 is :2385
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 20':
+
+     1,267,646,474 L1-dcache-loads                                             
+       167,410,934 L1-dcache-load-misses     #   13.21% of all L1-dcache hits  
+        63,094,449 LLC-loads                                                   
+        11,433,023 LLC-load-misses           #   18.12% of all LL-cache hits   
+
+       2.448383772 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 20 is :2938
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 20':
+
+     2,342,654,204 L1-dcache-loads                                             
+       199,561,010 L1-dcache-load-misses     #    8.52% of all L1-dcache hits  
+        73,867,214 LLC-loads                                                   
+        13,146,429 LLC-load-misses           #   17.80% of all LL-cache hits   
+
+       3.003979233 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 20 is :2589
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 20':
+
+     1,658,214,026 L1-dcache-loads                                             
+       190,910,059 L1-dcache-load-misses     #   11.51% of all L1-dcache hits  
+        71,625,982 LLC-loads                                                   
+        12,474,565 LLC-load-misses           #   17.42% of all LL-cache hits   
+
+       2.652926815 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 30 is :153
+2000
+ 
+ Performance counter stats for 'java TASLock 2 30':
+
+       143,086,302 L1-dcache-loads                                             
+        17,370,876 L1-dcache-load-misses     #   12.14% of all L1-dcache hits  
+         5,754,225 LLC-loads                                                   
+           872,424 LLC-load-misses           #   15.16% of all LL-cache hits   
+
+       0.213175579 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 30 is :147
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 30':
+
+       143,414,178 L1-dcache-loads                                             
+        17,327,762 L1-dcache-load-misses     #   12.08% of all L1-dcache hits  
+         5,837,799 LLC-loads                                                   
+           830,290 LLC-load-misses           #   14.22% of all LL-cache hits   
+
+       0.208220319 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 30 is :216
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 30':
+
+       271,018,910 L1-dcache-loads                                             
+        22,521,241 L1-dcache-load-misses     #    8.31% of all L1-dcache hits  
+         7,443,639 LLC-loads                                                   
+         1,070,099 LLC-load-misses           #   14.38% of all LL-cache hits   
+
+       0.279064234 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 30 is :154
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 30':
+
+       147,615,316 L1-dcache-loads                                             
+        18,455,761 L1-dcache-load-misses     #   12.50% of all L1-dcache hits  
+         6,355,209 LLC-loads                                                   
+           881,053 LLC-load-misses           #   13.86% of all LL-cache hits   
+
+       0.214051452 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 30 is :297
+4000
+ 
+ Performance counter stats for 'java TASLock 4 30':
+
+       243,336,249 L1-dcache-loads                                             
+        32,434,883 L1-dcache-load-misses     #   13.33% of all L1-dcache hits  
+        10,768,837 LLC-loads                                                   
+         1,517,108 LLC-load-misses           #   14.09% of all LL-cache hits   
+
+       0.355479278 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 30 is :297
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 30':
+
+       243,570,762 L1-dcache-loads                                             
+        32,585,300 L1-dcache-load-misses     #   13.38% of all L1-dcache hits  
+        10,936,938 LLC-loads                                                   
+         1,536,418 LLC-load-misses           #   14.05% of all LL-cache hits   
+
+       0.357598609 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 30 is :413
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 30':
+
+       486,522,793 L1-dcache-loads                                             
+        41,490,605 L1-dcache-load-misses     #    8.53% of all L1-dcache hits  
+        14,033,622 LLC-loads                                                   
+         1,862,832 LLC-load-misses           #   13.27% of all LL-cache hits   
+
+       0.477540108 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 30 is :307
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 30':
+
+       251,061,278 L1-dcache-loads                                             
+        34,682,682 L1-dcache-load-misses     #   13.81% of all L1-dcache hits  
+        12,112,029 LLC-loads                                                   
+         1,613,174 LLC-load-misses           #   13.32% of all LL-cache hits   
+
+       0.368123564 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 30 is :588
+8000
+ 
+ Performance counter stats for 'java TASLock 8 30':
+
+       423,690,206 L1-dcache-loads                                             
+        60,964,264 L1-dcache-load-misses     #   14.39% of all L1-dcache hits  
+        20,659,050 LLC-loads                                                   
+         2,996,675 LLC-load-misses           #   14.51% of all LL-cache hits   
+
+       0.649648275 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 30 is :590
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 30':
+
+       425,726,723 L1-dcache-loads                                             
+        61,022,126 L1-dcache-load-misses     #   14.33% of all L1-dcache hits  
+        20,960,415 LLC-loads                                                   
+         2,971,986 LLC-load-misses           #   14.18% of all LL-cache hits   
+
+       0.651397566 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 30 is :819
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 30':
+
+       834,520,982 L1-dcache-loads                                             
+        74,499,356 L1-dcache-load-misses     #    8.93% of all L1-dcache hits  
+        25,451,627 LLC-loads                                                   
+         3,310,946 LLC-load-misses           #   13.01% of all LL-cache hits   
+
+       0.882832912 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 30 is :590
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 30':
+
+       433,189,463 L1-dcache-loads                                             
+        63,833,432 L1-dcache-load-misses     #   14.74% of all L1-dcache hits  
+        22,692,011 LLC-loads                                                   
+         3,040,294 LLC-load-misses           #   13.40% of all LL-cache hits   
+
+       0.651810601 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 30 is :1202
+16000
+ 
+ Performance counter stats for 'java TASLock 16 30':
+
+       818,091,191 L1-dcache-loads                                             
+       106,222,594 L1-dcache-load-misses     #   12.98% of all L1-dcache hits  
+        37,525,828 LLC-loads                                                   
+         5,969,881 LLC-load-misses           #   15.91% of all LL-cache hits   
+
+       1.263900067 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 30 is :1203
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 30':
+
+       814,155,016 L1-dcache-loads                                             
+       106,713,128 L1-dcache-load-misses     #   13.11% of all L1-dcache hits  
+        37,628,846 LLC-loads                                                   
+         5,999,386 LLC-load-misses           #   15.94% of all LL-cache hits   
+
+       1.264314193 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 30 is :1538
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 30':
+
+     1,449,168,945 L1-dcache-loads                                             
+       126,953,294 L1-dcache-load-misses     #    8.76% of all L1-dcache hits  
+        45,413,981 LLC-loads                                                   
+         6,626,901 LLC-load-misses           #   14.59% of all LL-cache hits   
+
+       1.604330031 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 30 is :1379
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 30':
+
+     1,188,564,268 L1-dcache-loads                                             
+       116,542,312 L1-dcache-load-misses     #    9.81% of all L1-dcache hits  
+        43,356,102 LLC-loads                                                   
+         6,193,704 LLC-load-misses           #   14.29% of all LL-cache hits   
+
+       1.442705476 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 30 is :2389
+32000
+ 
+ Performance counter stats for 'java TASLock 32 30':
+
+     1,261,564,164 L1-dcache-loads                                             
+       166,061,826 L1-dcache-load-misses     #   13.16% of all L1-dcache hits  
+        61,236,228 LLC-loads                                                   
+        11,211,484 LLC-load-misses           #   18.31% of all LL-cache hits   
+
+       2.450792397 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 30 is :2312
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 30':
+
+     1,267,411,682 L1-dcache-loads                                             
+       166,343,549 L1-dcache-load-misses     #   13.12% of all L1-dcache hits  
+        61,546,942 LLC-loads                                                   
+        11,214,986 LLC-load-misses           #   18.22% of all LL-cache hits   
+
+       2.374534891 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 30 is :2725
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 30':
+
+     1,851,755,214 L1-dcache-loads                                             
+       202,160,188 L1-dcache-load-misses     #   10.92% of all L1-dcache hits  
+        75,228,692 LLC-loads                                                   
+        13,256,165 LLC-load-misses           #   17.62% of all LL-cache hits   
+
+       2.791999423 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 30 is :2899
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 30':
+
+     2,324,515,232 L1-dcache-loads                                             
+       192,049,406 L1-dcache-load-misses     #    8.26% of all L1-dcache hits  
+        73,410,773 LLC-loads                                                   
+        12,355,876 LLC-load-misses           #   16.83% of all LL-cache hits   
+
+       2.961380265 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 40 is :149
+2000
+ 
+ Performance counter stats for 'java TASLock 2 40':
+
+       143,062,763 L1-dcache-loads                                             
+        17,363,727 L1-dcache-load-misses     #   12.14% of all L1-dcache hits  
+         5,878,946 LLC-loads                                                   
+           875,160 LLC-load-misses           #   14.89% of all LL-cache hits   
+
+       0.210340041 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 40 is :148
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 40':
+
+       143,235,376 L1-dcache-loads                                             
+        17,359,467 L1-dcache-load-misses     #   12.12% of all L1-dcache hits  
+         5,689,328 LLC-loads                                                   
+           831,054 LLC-load-misses           #   14.61% of all LL-cache hits   
+
+       0.208070889 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 40 is :197
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 40':
+
+       237,344,733 L1-dcache-loads                                             
+        22,618,466 L1-dcache-load-misses     #    9.53% of all L1-dcache hits  
+         7,661,837 LLC-loads                                                   
+           995,056 LLC-load-misses           #   12.99% of all LL-cache hits   
+
+       0.261665153 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 40 is :148
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 40':
+
+       146,162,859 L1-dcache-loads                                             
+        18,339,738 L1-dcache-load-misses     #   12.55% of all L1-dcache hits  
+         6,357,288 LLC-loads                                                   
+           860,693 LLC-load-misses           #   13.54% of all LL-cache hits   
+
+       0.209800634 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 40 is :298
+4000
+ 
+ Performance counter stats for 'java TASLock 4 40':
+
+       243,403,319 L1-dcache-loads                                             
+        32,480,270 L1-dcache-load-misses     #   13.34% of all L1-dcache hits  
+        10,855,437 LLC-loads                                                   
+         1,549,211 LLC-load-misses           #   14.27% of all LL-cache hits   
+
+       0.359493851 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 40 is :295
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 40':
+
+       243,038,034 L1-dcache-loads                                             
+        32,442,306 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,916,494 LLC-loads                                                   
+         1,528,043 LLC-load-misses           #   14.00% of all LL-cache hits   
+
+       0.354102096 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 40 is :495
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 40':
+
+       645,983,298 L1-dcache-loads                                             
+        41,215,524 L1-dcache-load-misses     #    6.38% of all L1-dcache hits  
+        13,919,035 LLC-loads                                                   
+         1,785,921 LLC-load-misses           #   12.83% of all LL-cache hits   
+
+       0.559944202 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 40 is :301
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 40':
+
+       250,332,866 L1-dcache-loads                                             
+        34,388,426 L1-dcache-load-misses     #   13.74% of all L1-dcache hits  
+        11,940,769 LLC-loads                                                   
+         1,604,911 LLC-load-misses           #   13.44% of all LL-cache hits   
+
+       0.361731023 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 40 is :585
+8000
+ 
+ Performance counter stats for 'java TASLock 8 40':
+
+       426,116,123 L1-dcache-loads                                             
+        61,046,494 L1-dcache-load-misses     #   14.33% of all L1-dcache hits  
+        20,608,941 LLC-loads                                                   
+         2,929,264 LLC-load-misses           #   14.21% of all LL-cache hits   
+
+       0.645367304 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 40 is :588
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 40':
+
+       426,165,195 L1-dcache-loads                                             
+        61,216,150 L1-dcache-load-misses     #   14.36% of all L1-dcache hits  
+        20,816,945 LLC-loads                                                   
+         2,943,576 LLC-load-misses           #   14.14% of all LL-cache hits   
+
+       0.648336670 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 40 is :698
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 40':
+
+       620,593,960 L1-dcache-loads                                             
+        74,615,164 L1-dcache-load-misses     #   12.02% of all L1-dcache hits  
+        25,199,520 LLC-loads                                                   
+         3,517,527 LLC-load-misses           #   13.96% of all LL-cache hits   
+
+       0.761348154 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 40 is :591
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 40':
+
+       436,912,281 L1-dcache-loads                                             
+        64,235,074 L1-dcache-load-misses     #   14.70% of all L1-dcache hits  
+        22,580,623 LLC-loads                                                   
+         3,025,193 LLC-load-misses           #   13.40% of all LL-cache hits   
+
+       0.651976968 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 40 is :1173
+16000
+ 
+ Performance counter stats for 'java TASLock 16 40':
+
+       815,223,584 L1-dcache-loads                                             
+       105,943,619 L1-dcache-load-misses     #   13.00% of all L1-dcache hits  
+        36,784,518 LLC-loads                                                   
+         5,904,415 LLC-load-misses           #   16.05% of all LL-cache hits   
+
+       1.234312113 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 40 is :1190
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 40':
+
+       811,044,748 L1-dcache-loads                                             
+       105,448,113 L1-dcache-load-misses     #   13.00% of all L1-dcache hits  
+        37,123,573 LLC-loads                                                   
+         5,879,202 LLC-load-misses           #   15.84% of all LL-cache hits   
+
+       1.251449066 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 40 is :1561
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 40':
+
+     1,550,664,177 L1-dcache-loads                                             
+       126,269,111 L1-dcache-load-misses     #    8.14% of all L1-dcache hits  
+        44,107,900 LLC-loads                                                   
+         6,797,111 LLC-load-misses           #   15.41% of all LL-cache hits   
+
+       1.637587068 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 40 is :1291
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 40':
+
+     1,015,872,169 L1-dcache-loads                                             
+       117,027,830 L1-dcache-load-misses     #   11.52% of all L1-dcache hits  
+        43,374,065 LLC-loads                                                   
+         6,341,905 LLC-load-misses           #   14.62% of all LL-cache hits   
+
+       1.354819663 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 40 is :2394
+32000
+ 
+ Performance counter stats for 'java TASLock 32 40':
+
+     1,269,603,388 L1-dcache-loads                                             
+       167,763,779 L1-dcache-load-misses     #   13.21% of all L1-dcache hits  
+        61,900,495 LLC-loads                                                   
+        11,530,436 LLC-load-misses           #   18.63% of all LL-cache hits   
+
+       2.457809360 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 40 is :2309
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 40':
+
+     1,265,676,151 L1-dcache-loads                                             
+       167,996,997 L1-dcache-load-misses     #   13.27% of all L1-dcache hits  
+        62,177,542 LLC-loads                                                   
+        11,410,100 LLC-load-misses           #   18.35% of all LL-cache hits   
+
+       2.372125908 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 40 is :3264
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 40':
+
+     2,975,073,688 L1-dcache-loads                                             
+       199,121,468 L1-dcache-load-misses     #    6.69% of all L1-dcache hits  
+        73,327,666 LLC-loads                                                   
+        12,642,604 LLC-load-misses           #   17.24% of all LL-cache hits   
+
+       3.329297821 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 40 is :2792
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 40':
+
+     1,961,788,572 L1-dcache-loads                                             
+       193,029,716 L1-dcache-load-misses     #    9.84% of all L1-dcache hits  
+        73,581,331 LLC-loads                                                   
+        12,460,810 LLC-load-misses           #   16.93% of all LL-cache hits   
+
+       2.855272414 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 50 is :150
+2000
+ 
+ Performance counter stats for 'java TASLock 2 50':
+
+       143,521,137 L1-dcache-loads                                             
+        17,344,561 L1-dcache-load-misses     #   12.09% of all L1-dcache hits  
+         5,709,818 LLC-loads                                                   
+           866,279 LLC-load-misses           #   15.17% of all LL-cache hits   
+
+       0.210381021 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 50 is :148
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 50':
+
+       143,614,023 L1-dcache-loads                                             
+        17,279,401 L1-dcache-load-misses     #   12.03% of all L1-dcache hits  
+         5,683,527 LLC-loads                                                   
+           809,951 LLC-load-misses           #   14.25% of all LL-cache hits   
+
+       0.208437634 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 50 is :203
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 50':
+
+       251,486,570 L1-dcache-loads                                             
+        22,686,498 L1-dcache-load-misses     #    9.02% of all L1-dcache hits  
+         7,786,704 LLC-loads                                                   
+         1,073,151 LLC-load-misses           #   13.78% of all LL-cache hits   
+
+       0.267314909 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 50 is :151
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 50':
+
+       147,551,862 L1-dcache-loads                                             
+        18,356,508 L1-dcache-load-misses     #   12.44% of all L1-dcache hits  
+         6,312,289 LLC-loads                                                   
+           871,459 LLC-load-misses           #   13.81% of all LL-cache hits   
+
+       0.211733841 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 50 is :296
+4000
+ 
+ Performance counter stats for 'java TASLock 4 50':
+
+       243,491,994 L1-dcache-loads                                             
+        32,517,002 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,893,496 LLC-loads                                                   
+         1,524,709 LLC-load-misses           #   14.00% of all LL-cache hits   
+
+       0.354809066 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 50 is :301
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 50':
+
+       244,100,998 L1-dcache-loads                                             
+        32,605,916 L1-dcache-load-misses     #   13.36% of all L1-dcache hits  
+        11,034,830 LLC-loads                                                   
+         1,523,290 LLC-load-misses           #   13.80% of all LL-cache hits   
+
+       0.361796939 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 50 is :550
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 50':
+
+       709,639,096 L1-dcache-loads                                             
+        41,295,748 L1-dcache-load-misses     #    5.82% of all L1-dcache hits  
+        13,757,498 LLC-loads                                                   
+         1,710,246 LLC-load-misses           #   12.43% of all LL-cache hits   
+
+       0.613513210 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 50 is :296
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 50':
+
+       249,819,693 L1-dcache-loads                                             
+        34,325,862 L1-dcache-load-misses     #   13.74% of all L1-dcache hits  
+        12,186,320 LLC-loads                                                   
+         1,611,385 LLC-load-misses           #   13.22% of all LL-cache hits   
+
+       0.355876278 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 50 is :590
+8000
+ 
+ Performance counter stats for 'java TASLock 8 50':
+
+       426,930,994 L1-dcache-loads                                             
+        60,823,125 L1-dcache-load-misses     #   14.25% of all L1-dcache hits  
+        20,434,331 LLC-loads                                                   
+         2,949,279 LLC-load-misses           #   14.43% of all LL-cache hits   
+
+       0.649988906 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 50 is :587
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 50':
+
+       427,274,889 L1-dcache-loads                                             
+        61,398,272 L1-dcache-load-misses     #   14.37% of all L1-dcache hits  
+        21,031,498 LLC-loads                                                   
+         2,938,202 LLC-load-misses           #   13.97% of all LL-cache hits   
+
+       0.647851110 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 50 is :808
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 50':
+
+       862,517,454 L1-dcache-loads                                             
+        74,006,543 L1-dcache-load-misses     #    8.58% of all L1-dcache hits  
+        25,671,943 LLC-loads                                                   
+         3,325,336 LLC-load-misses           #   12.95% of all LL-cache hits   
+
+       0.871213726 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 50 is :599
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 50':
+
+       437,495,430 L1-dcache-loads                                             
+        65,086,791 L1-dcache-load-misses     #   14.88% of all L1-dcache hits  
+        22,940,522 LLC-loads                                                   
+         3,020,141 LLC-load-misses           #   13.17% of all LL-cache hits   
+
+       0.660488785 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 50 is :1161
+16000
+ 
+ Performance counter stats for 'java TASLock 16 50':
+
+       817,994,692 L1-dcache-loads                                             
+       106,412,348 L1-dcache-load-misses     #   13.01% of all L1-dcache hits  
+        37,077,942 LLC-loads                                                   
+         5,861,327 LLC-load-misses           #   15.81% of all LL-cache hits   
+
+       1.220319486 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 50 is :1195
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 50':
+
+       814,347,743 L1-dcache-loads                                             
+       106,345,457 L1-dcache-load-misses     #   13.06% of all L1-dcache hits  
+        37,050,363 LLC-loads                                                   
+         5,933,921 LLC-load-misses           #   16.02% of all LL-cache hits   
+
+       1.266758828 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 50 is :1562
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 50':
+
+     1,500,769,600 L1-dcache-loads                                             
+       126,611,902 L1-dcache-load-misses     #    8.44% of all L1-dcache hits  
+        45,380,906 LLC-loads                                                   
+         6,647,164 LLC-load-misses           #   14.65% of all LL-cache hits   
+
+       1.638326144 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 50 is :1413
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 50':
+
+     1,218,205,625 L1-dcache-loads                                             
+       117,254,089 L1-dcache-load-misses     #    9.63% of all L1-dcache hits  
+        43,996,937 LLC-loads                                                   
+         6,280,395 LLC-load-misses           #   14.27% of all LL-cache hits   
+
+       1.477138532 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 50 is :2346
+32000
+ 
+ Performance counter stats for 'java TASLock 32 50':
+
+     1,266,724,984 L1-dcache-loads                                             
+       166,750,461 L1-dcache-load-misses     #   13.16% of all L1-dcache hits  
+        60,975,948 LLC-loads                                                   
+        11,272,073 LLC-load-misses           #   18.49% of all LL-cache hits   
+
+       2.408493502 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 50 is :2362
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 50':
+
+     1,271,453,024 L1-dcache-loads                                             
+       168,733,386 L1-dcache-load-misses     #   13.27% of all L1-dcache hits  
+        62,376,898 LLC-loads                                                   
+        11,302,456 LLC-load-misses           #   18.12% of all LL-cache hits   
+
+       2.424052484 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 50 is :2765
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 50':
+
+     1,873,403,434 L1-dcache-loads                                             
+       202,119,251 L1-dcache-load-misses     #   10.79% of all L1-dcache hits  
+        75,017,559 LLC-loads                                                   
+        12,923,976 LLC-load-misses           #   17.23% of all LL-cache hits   
+
+       2.830342825 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 50 is :2643
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 50':
+
+     1,667,834,952 L1-dcache-loads                                             
+       194,167,009 L1-dcache-load-misses     #   11.64% of all L1-dcache hits  
+        74,673,542 LLC-loads                                                   
+        12,633,862 LLC-load-misses           #   16.92% of all LL-cache hits   
+
+       2.706120417 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 60 is :154
+2000
+ 
+ Performance counter stats for 'java TASLock 2 60':
+
+       143,454,975 L1-dcache-loads                                             
+        17,306,982 L1-dcache-load-misses     #   12.06% of all L1-dcache hits  
+         5,738,858 LLC-loads                                                   
+           866,453 LLC-load-misses           #   15.10% of all LL-cache hits   
+
+       0.214667954 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 60 is :150
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 60':
+
+       143,858,082 L1-dcache-loads                                             
+        17,351,422 L1-dcache-load-misses     #   12.06% of all L1-dcache hits  
+         5,712,430 LLC-loads                                                   
+           827,804 LLC-load-misses           #   14.49% of all LL-cache hits   
+
+       0.209512946 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 60 is :277
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 60':
+
+       380,301,567 L1-dcache-loads                                             
+        22,623,062 L1-dcache-load-misses     #    5.95% of all L1-dcache hits  
+         7,680,293 LLC-loads                                                   
+         1,018,569 LLC-load-misses           #   13.26% of all LL-cache hits   
+
+       0.341056794 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 60 is :149
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 60':
+
+       146,097,608 L1-dcache-loads                                             
+        18,289,387 L1-dcache-load-misses     #   12.52% of all L1-dcache hits  
+         6,419,546 LLC-loads                                                   
+           864,370 LLC-load-misses           #   13.46% of all LL-cache hits   
+
+       0.209170363 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 60 is :294
+4000
+ 
+ Performance counter stats for 'java TASLock 4 60':
+
+       242,895,532 L1-dcache-loads                                             
+        32,250,915 L1-dcache-load-misses     #   13.28% of all L1-dcache hits  
+        10,589,381 LLC-loads                                                   
+         1,532,250 LLC-load-misses           #   14.47% of all LL-cache hits   
+
+       0.354195171 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 60 is :298
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 60':
+
+       243,452,670 L1-dcache-loads                                             
+        32,442,627 L1-dcache-load-misses     #   13.33% of all L1-dcache hits  
+        10,872,670 LLC-loads                                                   
+         1,581,582 LLC-load-misses           #   14.55% of all LL-cache hits   
+
+       0.357998132 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 60 is :350
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 60':
+
+       338,973,568 L1-dcache-loads                                             
+        41,614,247 L1-dcache-load-misses     #   12.28% of all L1-dcache hits  
+        14,461,360 LLC-loads                                                   
+         2,107,538 LLC-load-misses           #   14.57% of all LL-cache hits   
+
+       0.414565241 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 60 is :307
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 60':
+
+       250,221,255 L1-dcache-loads                                             
+        34,506,589 L1-dcache-load-misses     #   13.79% of all L1-dcache hits  
+        11,991,897 LLC-loads                                                   
+         1,618,944 LLC-load-misses           #   13.50% of all LL-cache hits   
+
+       0.367555006 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 60 is :589
+8000
+ 
+ Performance counter stats for 'java TASLock 8 60':
+
+       425,955,365 L1-dcache-loads                                             
+        61,259,544 L1-dcache-load-misses     #   14.38% of all L1-dcache hits  
+        20,409,903 LLC-loads                                                   
+         2,978,864 LLC-load-misses           #   14.60% of all LL-cache hits   
+
+       0.649109427 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 60 is :595
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 60':
+
+       424,928,213 L1-dcache-loads                                             
+        60,728,828 L1-dcache-load-misses     #   14.29% of all L1-dcache hits  
+        20,552,826 LLC-loads                                                   
+         2,996,642 LLC-load-misses           #   14.58% of all LL-cache hits   
+
+       0.655528839 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 60 is :794
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 60':
+
+       875,139,952 L1-dcache-loads                                             
+        74,264,236 L1-dcache-load-misses     #    8.49% of all L1-dcache hits  
+        25,222,892 LLC-loads                                                   
+         3,354,405 LLC-load-misses           #   13.30% of all LL-cache hits   
+
+       0.857748490 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 60 is :582
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 60':
+
+       430,706,624 L1-dcache-loads                                             
+        63,718,535 L1-dcache-load-misses     #   14.79% of all L1-dcache hits  
+        22,812,624 LLC-loads                                                   
+         3,009,083 LLC-load-misses           #   13.19% of all LL-cache hits   
+
+       0.643018890 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 60 is :1184
+16000
+ 
+ Performance counter stats for 'java TASLock 16 60':
+
+       816,099,267 L1-dcache-loads                                             
+       105,932,899 L1-dcache-load-misses     #   12.98% of all L1-dcache hits  
+        37,540,498 LLC-loads                                                   
+         5,860,851 LLC-load-misses           #   15.61% of all LL-cache hits   
+
+       1.255471591 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 60 is :1171
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 60':
+
+       814,039,101 L1-dcache-loads                                             
+       106,588,449 L1-dcache-load-misses     #   13.09% of all L1-dcache hits  
+        37,498,887 LLC-loads                                                   
+         5,858,326 LLC-load-misses           #   15.62% of all LL-cache hits   
+
+       1.240979762 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 60 is :1581
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 60':
+
+     1,500,233,078 L1-dcache-loads                                             
+       125,698,147 L1-dcache-load-misses     #    8.38% of all L1-dcache hits  
+        44,839,765 LLC-loads                                                   
+         6,621,454 LLC-load-misses           #   14.77% of all LL-cache hits   
+
+       1.655954700 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 60 is :1328
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 60':
+
+     1,056,275,077 L1-dcache-loads                                             
+       116,594,950 L1-dcache-load-misses     #   11.04% of all L1-dcache hits  
+        42,288,441 LLC-loads                                                   
+         6,512,207 LLC-load-misses           #   15.40% of all LL-cache hits   
+
+       1.391289364 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 60 is :2350
+32000
+ 
+ Performance counter stats for 'java TASLock 32 60':
+
+     1,278,825,013 L1-dcache-loads                                             
+       169,175,183 L1-dcache-load-misses     #   13.23% of all L1-dcache hits  
+        63,851,132 LLC-loads                                                   
+        11,519,226 LLC-load-misses           #   18.04% of all LL-cache hits   
+
+       2.414208806 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 60 is :2428
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 60':
+
+     1,271,216,350 L1-dcache-loads                                             
+       167,546,300 L1-dcache-load-misses     #   13.18% of all L1-dcache hits  
+        62,811,842 LLC-loads                                                   
+        11,422,899 LLC-load-misses           #   18.19% of all LL-cache hits   
+
+       2.491152843 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 60 is :2767
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 60':
+
+     1,930,007,375 L1-dcache-loads                                             
+       198,776,998 L1-dcache-load-misses     #   10.30% of all L1-dcache hits  
+        71,806,060 LLC-loads                                                   
+        13,098,325 LLC-load-misses           #   18.24% of all LL-cache hits   
+
+       2.874203422 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 60 is :2795
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 60':
+
+     1,985,382,922 L1-dcache-loads                                             
+       194,166,720 L1-dcache-load-misses     #    9.78% of all L1-dcache hits  
+        74,356,162 LLC-loads                                                   
+        12,451,859 LLC-load-misses           #   16.75% of all LL-cache hits   
+
+       2.858601255 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 70 is :149
+2000
+ 
+ Performance counter stats for 'java TASLock 2 70':
+
+       143,432,072 L1-dcache-loads                                             
+        17,335,727 L1-dcache-load-misses     #   12.09% of all L1-dcache hits  
+         5,851,116 LLC-loads                                                   
+           866,097 LLC-load-misses           #   14.80% of all LL-cache hits   
+
+       0.209870540 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 70 is :150
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 70':
+
+       143,806,859 L1-dcache-loads                                             
+        17,328,619 L1-dcache-load-misses     #   12.05% of all L1-dcache hits  
+         5,813,026 LLC-loads                                                   
+           832,034 LLC-load-misses           #   14.31% of all LL-cache hits   
+
+       0.209885940 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 70 is :255
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 70':
+
+       322,362,571 L1-dcache-loads                                             
+        22,405,195 L1-dcache-load-misses     #    6.95% of all L1-dcache hits  
+         7,552,344 LLC-loads                                                   
+           977,627 LLC-load-misses           #   12.94% of all LL-cache hits   
+
+       0.320041835 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 70 is :151
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 70':
+
+       146,507,013 L1-dcache-loads                                             
+        18,326,764 L1-dcache-load-misses     #   12.51% of all L1-dcache hits  
+         6,366,568 LLC-loads                                                   
+           865,595 LLC-load-misses           #   13.60% of all LL-cache hits   
+
+       0.210785205 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 70 is :297
+4000
+ 
+ Performance counter stats for 'java TASLock 4 70':
+
+       243,155,592 L1-dcache-loads                                             
+        32,159,711 L1-dcache-load-misses     #   13.23% of all L1-dcache hits  
+        10,857,201 LLC-loads                                                   
+         1,521,793 LLC-load-misses           #   14.02% of all LL-cache hits   
+
+       0.357647740 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 70 is :298
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 70':
+
+       243,542,434 L1-dcache-loads                                             
+        32,503,405 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,754,325 LLC-loads                                                   
+         1,557,581 LLC-load-misses           #   14.48% of all LL-cache hits   
+
+       0.357868877 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 70 is :475
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 70':
+
+       592,147,200 L1-dcache-loads                                             
+        41,298,458 L1-dcache-load-misses     #    6.97% of all L1-dcache hits  
+        14,157,495 LLC-loads                                                   
+         1,816,971 LLC-load-misses           #   12.83% of all LL-cache hits   
+
+       0.539425425 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 70 is :302
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 70':
+
+       250,247,642 L1-dcache-loads                                             
+        34,453,059 L1-dcache-load-misses     #   13.77% of all L1-dcache hits  
+        11,985,596 LLC-loads                                                   
+         1,628,601 LLC-load-misses           #   13.59% of all LL-cache hits   
+
+       0.362488647 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 70 is :593
+8000
+ 
+ Performance counter stats for 'java TASLock 8 70':
+
+       423,087,618 L1-dcache-loads                                             
+        60,540,749 L1-dcache-load-misses     #   14.31% of all L1-dcache hits  
+        20,514,247 LLC-loads                                                   
+         2,997,464 LLC-load-misses           #   14.61% of all LL-cache hits   
+
+       0.653346493 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 70 is :607
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 70':
+
+       423,830,538 L1-dcache-loads                                             
+        60,601,193 L1-dcache-load-misses     #   14.30% of all L1-dcache hits  
+        20,487,572 LLC-loads                                                   
+         2,974,594 LLC-load-misses           #   14.52% of all LL-cache hits   
+
+       0.667345144 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 70 is :792
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 70':
+
+       846,213,238 L1-dcache-loads                                             
+        74,645,112 L1-dcache-load-misses     #    8.82% of all L1-dcache hits  
+        25,997,264 LLC-loads                                                   
+         3,428,610 LLC-load-misses           #   13.19% of all LL-cache hits   
+
+       0.856520997 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 70 is :597
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 70':
+
+       458,743,210 L1-dcache-loads                                             
+        65,215,983 L1-dcache-load-misses     #   14.22% of all L1-dcache hits  
+        23,135,021 LLC-loads                                                   
+         3,066,268 LLC-load-misses           #   13.25% of all LL-cache hits   
+
+       0.659006626 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 70 is :1204
+16000
+ 
+ Performance counter stats for 'java TASLock 16 70':
+
+       817,057,624 L1-dcache-loads                                             
+       106,162,413 L1-dcache-load-misses     #   12.99% of all L1-dcache hits  
+        37,690,741 LLC-loads                                                   
+         5,919,630 LLC-load-misses           #   15.71% of all LL-cache hits   
+
+       1.265839417 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 70 is :1174
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 70':
+
+       812,102,604 L1-dcache-loads                                             
+       105,712,517 L1-dcache-load-misses     #   13.02% of all L1-dcache hits  
+        36,804,072 LLC-loads                                                   
+         5,868,536 LLC-load-misses           #   15.95% of all LL-cache hits   
+
+       1.245622974 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 70 is :1593
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 70':
+
+     1,571,668,649 L1-dcache-loads                                             
+       125,676,567 L1-dcache-load-misses     #    8.00% of all L1-dcache hits  
+        44,503,381 LLC-loads                                                   
+         6,536,422 LLC-load-misses           #   14.69% of all LL-cache hits   
+
+       1.657481275 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 70 is :1287
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 70':
+
+       969,133,734 L1-dcache-loads                                             
+       118,986,382 L1-dcache-load-misses     #   12.28% of all L1-dcache hits  
+        44,183,924 LLC-loads                                                   
+         6,487,663 LLC-load-misses           #   14.68% of all LL-cache hits   
+
+       1.359991078 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 70 is :2339
+32000
+ 
+ Performance counter stats for 'java TASLock 32 70':
+
+     1,261,909,907 L1-dcache-loads                                             
+       166,785,284 L1-dcache-load-misses     #   13.22% of all L1-dcache hits  
+        62,046,811 LLC-loads                                                   
+        11,401,932 LLC-load-misses           #   18.38% of all LL-cache hits   
+
+       2.399273127 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 70 is :2312
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 70':
+
+     1,267,098,193 L1-dcache-loads                                             
+       166,954,312 L1-dcache-load-misses     #   13.18% of all L1-dcache hits  
+        63,744,962 LLC-loads                                                   
+        11,469,142 LLC-load-misses           #   17.99% of all LL-cache hits   
+
+       2.374952433 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 70 is :2934
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 70':
+
+     2,256,376,519 L1-dcache-loads                                             
+       200,174,087 L1-dcache-load-misses     #    8.87% of all L1-dcache hits  
+        73,697,273 LLC-loads                                                   
+        12,914,612 LLC-load-misses           #   17.52% of all LL-cache hits   
+
+       2.999946551 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 70 is :2648
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 70':
+
+     1,652,584,072 L1-dcache-loads                                             
+       193,035,489 L1-dcache-load-misses     #   11.68% of all L1-dcache hits  
+        74,737,199 LLC-loads                                                   
+        13,019,858 LLC-load-misses           #   17.42% of all LL-cache hits   
+
+       2.717275922 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 80 is :149
+2000
+ 
+ Performance counter stats for 'java TASLock 2 80':
+
+       143,414,560 L1-dcache-loads                                             
+        17,302,565 L1-dcache-load-misses     #   12.06% of all L1-dcache hits  
+         5,827,257 LLC-loads                                                   
+           864,253 LLC-load-misses           #   14.83% of all LL-cache hits   
+
+       0.209769429 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 80 is :150
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 80':
+
+       143,735,454 L1-dcache-loads                                             
+        17,324,887 L1-dcache-load-misses     #   12.05% of all L1-dcache hits  
+         5,736,151 LLC-loads                                                   
+           813,470 LLC-load-misses           #   14.18% of all LL-cache hits   
+
+       0.211181438 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 80 is :220
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 80':
+
+       273,738,521 L1-dcache-loads                                             
+        22,387,170 L1-dcache-load-misses     #    8.18% of all L1-dcache hits  
+         7,517,869 LLC-loads                                                   
+           940,649 LLC-load-misses           #   12.51% of all LL-cache hits   
+
+       0.283898915 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 80 is :152
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 80':
+
+       147,555,741 L1-dcache-loads                                             
+        18,480,114 L1-dcache-load-misses     #   12.52% of all L1-dcache hits  
+         6,371,731 LLC-loads                                                   
+           877,123 LLC-load-misses           #   13.77% of all LL-cache hits   
+
+       0.212650627 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 80 is :297
+4000
+ 
+ Performance counter stats for 'java TASLock 4 80':
+
+       243,827,380 L1-dcache-loads                                             
+        32,361,354 L1-dcache-load-misses     #   13.27% of all L1-dcache hits  
+        10,845,303 LLC-loads                                                   
+         1,526,582 LLC-load-misses           #   14.08% of all LL-cache hits   
+
+       0.356700201 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 80 is :297
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 80':
+
+       244,012,469 L1-dcache-loads                                             
+        32,572,842 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,877,008 LLC-loads                                                   
+         1,520,943 LLC-load-misses           #   13.98% of all LL-cache hits   
+
+       0.356330506 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 80 is :355
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 80':
+
+       357,988,720 L1-dcache-loads                                             
+        41,142,971 L1-dcache-load-misses     #   11.49% of all L1-dcache hits  
+        13,823,870 LLC-loads                                                   
+         1,844,792 LLC-load-misses           #   13.34% of all LL-cache hits   
+
+       0.417935014 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 80 is :305
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 80':
+
+       250,657,591 L1-dcache-loads                                             
+        34,429,663 L1-dcache-load-misses     #   13.74% of all L1-dcache hits  
+        11,892,298 LLC-loads                                                   
+         1,608,482 LLC-load-misses           #   13.53% of all LL-cache hits   
+
+       0.364614438 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 80 is :595
+8000
+ 
+ Performance counter stats for 'java TASLock 8 80':
+
+       423,160,413 L1-dcache-loads                                             
+        60,432,828 L1-dcache-load-misses     #   14.28% of all L1-dcache hits  
+        20,355,563 LLC-loads                                                   
+         3,003,243 LLC-load-misses           #   14.75% of all LL-cache hits   
+
+       0.656149154 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 80 is :590
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 80':
+
+       426,777,564 L1-dcache-loads                                             
+        61,297,211 L1-dcache-load-misses     #   14.36% of all L1-dcache hits  
+        21,000,570 LLC-loads                                                   
+         2,956,551 LLC-load-misses           #   14.08% of all LL-cache hits   
+
+       0.650171968 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 80 is :728
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 80':
+
+       708,756,407 L1-dcache-loads                                             
+        74,734,059 L1-dcache-load-misses     #   10.54% of all L1-dcache hits  
+        25,628,328 LLC-loads                                                   
+         3,444,951 LLC-load-misses           #   13.44% of all LL-cache hits   
+
+       0.791719131 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 80 is :592
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 80':
+
+       435,809,300 L1-dcache-loads                                             
+        64,706,492 L1-dcache-load-misses     #   14.85% of all L1-dcache hits  
+        22,491,240 LLC-loads                                                   
+         3,033,683 LLC-load-misses           #   13.49% of all LL-cache hits   
+
+       0.652730747 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 80 is :1177
+16000
+ 
+ Performance counter stats for 'java TASLock 16 80':
+
+       813,967,852 L1-dcache-loads                                             
+       105,721,096 L1-dcache-load-misses     #   12.99% of all L1-dcache hits  
+        37,009,935 LLC-loads                                                   
+         5,842,081 LLC-load-misses           #   15.79% of all LL-cache hits   
+
+       1.238128801 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 80 is :1187
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 80':
+
+       818,010,675 L1-dcache-loads                                             
+       106,608,149 L1-dcache-load-misses     #   13.03% of all L1-dcache hits  
+        37,106,520 LLC-loads                                                   
+         5,953,712 LLC-load-misses           #   16.04% of all LL-cache hits   
+
+       1.264410998 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 80 is :1363
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 80':
+
+     1,157,794,004 L1-dcache-loads                                             
+       127,016,051 L1-dcache-load-misses     #   10.97% of all L1-dcache hits  
+        45,376,250 LLC-loads                                                   
+         6,687,975 LLC-load-misses           #   14.74% of all LL-cache hits   
+
+       1.438022903 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 80 is :1344
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 80':
+
+     1,139,029,192 L1-dcache-loads                                             
+       117,782,626 L1-dcache-load-misses     #   10.34% of all L1-dcache hits  
+        43,647,560 LLC-loads                                                   
+         6,318,279 LLC-load-misses           #   14.48% of all LL-cache hits   
+
+       1.407502503 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 80 is :2371
+32000
+ 
+ Performance counter stats for 'java TASLock 32 80':
+
+     1,262,764,249 L1-dcache-loads                                             
+       166,280,702 L1-dcache-load-misses     #   13.17% of all L1-dcache hits  
+        61,846,376 LLC-loads                                                   
+        11,265,665 LLC-load-misses           #   18.22% of all LL-cache hits   
+
+       2.433160850 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 80 is :2357
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 80':
+
+     1,269,279,282 L1-dcache-loads                                             
+       167,659,697 L1-dcache-load-misses     #   13.21% of all L1-dcache hits  
+        62,905,721 LLC-loads                                                   
+        11,198,554 LLC-load-misses           #   17.80% of all LL-cache hits   
+
+       2.419764189 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 80 is :2903
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 80':
+
+     2,224,160,682 L1-dcache-loads                                             
+       200,035,619 L1-dcache-load-misses     #    8.99% of all L1-dcache hits  
+        73,602,933 LLC-loads                                                   
+        12,986,408 LLC-load-misses           #   17.64% of all LL-cache hits   
+
+       2.968228587 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 80 is :2690
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 80':
+
+     1,786,119,634 L1-dcache-loads                                             
+       192,548,040 L1-dcache-load-misses     #   10.78% of all L1-dcache hits  
+        73,764,409 LLC-loads                                                   
+        12,475,393 LLC-load-misses           #   16.91% of all LL-cache hits   
+
+       2.754573944 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 90 is :149
+2000
+ 
+ Performance counter stats for 'java TASLock 2 90':
+
+       143,213,604 L1-dcache-loads                                             
+        17,390,375 L1-dcache-load-misses     #   12.14% of all L1-dcache hits  
+         5,747,244 LLC-loads                                                   
+           876,540 LLC-load-misses           #   15.25% of all LL-cache hits   
+
+       0.211111253 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 90 is :150
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 90':
+
+       143,382,562 L1-dcache-loads                                             
+        17,418,812 L1-dcache-load-misses     #   12.15% of all L1-dcache hits  
+         5,899,824 LLC-loads                                                   
+           834,303 LLC-load-misses           #   14.14% of all LL-cache hits   
+
+       0.210494983 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 90 is :241
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 90':
+
+       321,436,525 L1-dcache-loads                                             
+        22,651,599 L1-dcache-load-misses     #    7.05% of all L1-dcache hits  
+         7,849,791 LLC-loads                                                   
+         1,098,459 LLC-load-misses           #   13.99% of all LL-cache hits   
+
+       0.318839191 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 90 is :148
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 90':
+
+       145,674,403 L1-dcache-loads                                             
+        18,231,132 L1-dcache-load-misses     #   12.51% of all L1-dcache hits  
+         6,217,607 LLC-loads                                                   
+           858,186 LLC-load-misses           #   13.80% of all LL-cache hits   
+
+       0.208905915 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 90 is :298
+4000
+ 
+ Performance counter stats for 'java TASLock 4 90':
+
+       243,069,971 L1-dcache-loads                                             
+        32,263,210 L1-dcache-load-misses     #   13.27% of all L1-dcache hits  
+        10,930,522 LLC-loads                                                   
+         1,521,191 LLC-load-misses           #   13.92% of all LL-cache hits   
+
+       0.357913585 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 90 is :297
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 90':
+
+       243,837,046 L1-dcache-loads                                             
+        32,555,420 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,720,388 LLC-loads                                                   
+         1,560,685 LLC-load-misses           #   14.56% of all LL-cache hits   
+
+       0.356775667 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 90 is :378
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 90':
+
+       405,873,174 L1-dcache-loads                                             
+        41,245,922 L1-dcache-load-misses     #   10.16% of all L1-dcache hits  
+        13,884,911 LLC-loads                                                   
+         1,832,649 LLC-load-misses           #   13.20% of all LL-cache hits   
+
+       0.441216974 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 90 is :304
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 90':
+
+       250,574,493 L1-dcache-loads                                             
+        34,549,733 L1-dcache-load-misses     #   13.79% of all L1-dcache hits  
+        11,972,340 LLC-loads                                                   
+         1,620,782 LLC-load-misses           #   13.54% of all LL-cache hits   
+
+       0.365959046 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 90 is :596
+8000
+ 
+ Performance counter stats for 'java TASLock 8 90':
+
+       425,952,763 L1-dcache-loads                                             
+        60,988,819 L1-dcache-load-misses     #   14.32% of all L1-dcache hits  
+        20,881,017 LLC-loads                                                   
+         2,988,135 LLC-load-misses           #   14.31% of all LL-cache hits   
+
+       0.657275329 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 90 is :592
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 90':
+
+       425,025,723 L1-dcache-loads                                             
+        61,114,335 L1-dcache-load-misses     #   14.38% of all L1-dcache hits  
+        20,956,261 LLC-loads                                                   
+         2,969,050 LLC-load-misses           #   14.17% of all LL-cache hits   
+
+       0.652533194 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 90 is :794
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 90':
+
+       848,875,606 L1-dcache-loads                                             
+        74,586,381 L1-dcache-load-misses     #    8.79% of all L1-dcache hits  
+        25,681,160 LLC-loads                                                   
+         3,422,842 LLC-load-misses           #   13.33% of all LL-cache hits   
+
+       0.859147167 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 90 is :579
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 90':
+
+       430,297,020 L1-dcache-loads                                             
+        63,765,077 L1-dcache-load-misses     #   14.82% of all L1-dcache hits  
+        22,315,939 LLC-loads                                                   
+         2,976,412 LLC-load-misses           #   13.34% of all LL-cache hits   
+
+       0.640369230 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 90 is :1175
+16000
+ 
+ Performance counter stats for 'java TASLock 16 90':
+
+       813,027,140 L1-dcache-loads                                             
+       106,075,070 L1-dcache-load-misses     #   13.05% of all L1-dcache hits  
+        37,022,188 LLC-loads                                                   
+         5,949,005 LLC-load-misses           #   16.07% of all LL-cache hits   
+
+       1.236731251 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 90 is :1185
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 90':
+
+       812,124,935 L1-dcache-loads                                             
+       105,361,712 L1-dcache-load-misses     #   12.97% of all L1-dcache hits  
+        37,601,847 LLC-loads                                                   
+         5,880,721 LLC-load-misses           #   15.64% of all LL-cache hits   
+
+       1.246531261 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 90 is :1447
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 90':
+
+     1,284,708,724 L1-dcache-loads                                             
+       125,755,903 L1-dcache-load-misses     #    9.79% of all L1-dcache hits  
+        44,668,610 LLC-loads                                                   
+         6,767,708 LLC-load-misses           #   15.15% of all LL-cache hits   
+
+       1.512235898 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 90 is :1350
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 90':
+
+     1,125,830,307 L1-dcache-loads                                             
+       117,713,686 L1-dcache-load-misses     #   10.46% of all L1-dcache hits  
+        43,931,801 LLC-loads                                                   
+         6,442,694 LLC-load-misses           #   14.67% of all LL-cache hits   
+
+       1.414479131 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 90 is :2414
+32000
+ 
+ Performance counter stats for 'java TASLock 32 90':
+
+     1,276,842,991 L1-dcache-loads                                             
+       168,833,083 L1-dcache-load-misses     #   13.22% of all L1-dcache hits  
+        63,716,398 LLC-loads                                                   
+        11,458,885 LLC-load-misses           #   17.98% of all LL-cache hits   
+
+       2.476895856 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 90 is :2311
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 90':
+
+     1,272,404,291 L1-dcache-loads                                             
+       168,306,577 L1-dcache-load-misses     #   13.23% of all L1-dcache hits  
+        62,989,345 LLC-loads                                                   
+        11,581,450 LLC-load-misses           #   18.39% of all LL-cache hits   
+
+       2.372736349 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 90 is :3056
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 90':
+
+     2,479,837,444 L1-dcache-loads                                             
+       201,392,673 L1-dcache-load-misses     #    8.12% of all L1-dcache hits  
+        75,126,788 LLC-loads                                                   
+        12,846,850 LLC-load-misses           #   17.10% of all LL-cache hits   
+
+       3.119854297 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 90 is :2768
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 90':
+
+     1,951,142,904 L1-dcache-loads                                             
+       193,010,813 L1-dcache-load-misses     #    9.89% of all L1-dcache hits  
+        73,211,179 LLC-loads                                                   
+        12,572,055 LLC-load-misses           #   17.17% of all LL-cache hits   
+
+       2.832239386 seconds time elapsed
+
+TASLock Time taken for 2 threads with mean 100 is :151
+2000
+ 
+ Performance counter stats for 'java TASLock 2 100':
+
+       143,346,559 L1-dcache-loads                                             
+        17,389,305 L1-dcache-load-misses     #   12.13% of all L1-dcache hits  
+         5,723,491 LLC-loads                                                   
+           867,137 LLC-load-misses           #   15.15% of all LL-cache hits   
+
+       0.211173883 seconds time elapsed
+
+TTASLock Time taken for 2 threads with mean 100 is :147
+2000
+ 
+ Performance counter stats for 'java TTASLock 2 100':
+
+       143,252,105 L1-dcache-loads                                             
+        17,258,472 L1-dcache-load-misses     #   12.05% of all L1-dcache hits  
+         5,695,556 LLC-loads                                                   
+           818,671 LLC-load-misses           #   14.37% of all LL-cache hits   
+
+       0.207199339 seconds time elapsed
+
+CLHLock Time taken for 2 threads with mean 100 is :182
+2000
+ 
+ Performance counter stats for 'java CLHLock 2 100':
+
+       193,288,256 L1-dcache-loads                                             
+        23,130,820 L1-dcache-load-misses     #   11.97% of all L1-dcache hits  
+         8,079,387 LLC-loads                                                   
+         1,324,609 LLC-load-misses           #   16.39% of all LL-cache hits   
+
+       0.246263726 seconds time elapsed
+
+BackoffLock Time taken for 2 threads with mean 100 is :155
+2000
+ 
+ Performance counter stats for 'java TTASBackoffLock 2 100':
+
+       147,376,707 L1-dcache-loads                                             
+        18,481,140 L1-dcache-load-misses     #   12.54% of all L1-dcache hits  
+         6,338,660 LLC-loads                                                   
+           899,623 LLC-load-misses           #   14.19% of all LL-cache hits   
+
+       0.215483316 seconds time elapsed
+
+TASLock Time taken for 4 threads with mean 100 is :296
+4000
+ 
+ Performance counter stats for 'java TASLock 4 100':
+
+       243,671,505 L1-dcache-loads                                             
+        32,400,089 L1-dcache-load-misses     #   13.30% of all L1-dcache hits  
+        10,910,419 LLC-loads                                                   
+         1,524,511 LLC-load-misses           #   13.97% of all LL-cache hits   
+
+       0.355909840 seconds time elapsed
+
+TTASLock Time taken for 4 threads with mean 100 is :298
+4000
+ 
+ Performance counter stats for 'java TTASLock 4 100':
+
+       243,315,121 L1-dcache-loads                                             
+        32,484,707 L1-dcache-load-misses     #   13.35% of all L1-dcache hits  
+        10,942,163 LLC-loads                                                   
+         1,570,051 LLC-load-misses           #   14.35% of all LL-cache hits   
+
+       0.359057395 seconds time elapsed
+
+CLHLock Time taken for 4 threads with mean 100 is :404
+4000
+ 
+ Performance counter stats for 'java CLHLock 4 100':
+
+       452,500,326 L1-dcache-loads                                             
+        41,555,568 L1-dcache-load-misses     #    9.18% of all L1-dcache hits  
+        14,165,028 LLC-loads                                                   
+         1,980,451 LLC-load-misses           #   13.98% of all LL-cache hits   
+
+       0.468773542 seconds time elapsed
+
+BackoffLock Time taken for 4 threads with mean 100 is :298
+4000
+ 
+ Performance counter stats for 'java TTASBackoffLock 4 100':
+
+       248,089,585 L1-dcache-loads                                             
+        34,095,933 L1-dcache-load-misses     #   13.74% of all L1-dcache hits  
+        11,851,622 LLC-loads                                                   
+         1,581,125 LLC-load-misses           #   13.34% of all LL-cache hits   
+
+       0.359416083 seconds time elapsed
+
+TASLock Time taken for 8 threads with mean 100 is :588
+8000
+ 
+ Performance counter stats for 'java TASLock 8 100':
+
+       425,596,741 L1-dcache-loads                                             
+        60,950,281 L1-dcache-load-misses     #   14.32% of all L1-dcache hits  
+        20,376,720 LLC-loads                                                   
+         2,972,260 LLC-load-misses           #   14.59% of all LL-cache hits   
+
+       0.648632697 seconds time elapsed
+
+TTASLock Time taken for 8 threads with mean 100 is :595
+8000
+ 
+ Performance counter stats for 'java TTASLock 8 100':
+
+       424,014,919 L1-dcache-loads                                             
+        60,653,947 L1-dcache-load-misses     #   14.30% of all L1-dcache hits  
+        20,680,729 LLC-loads                                                   
+         3,007,097 LLC-load-misses           #   14.54% of all LL-cache hits   
+
+       0.656036601 seconds time elapsed
+
+CLHLock Time taken for 8 threads with mean 100 is :717
+8000
+ 
+ Performance counter stats for 'java CLHLock 8 100':
+
+       676,614,466 L1-dcache-loads                                             
+        74,002,873 L1-dcache-load-misses     #   10.94% of all L1-dcache hits  
+        25,296,675 LLC-loads                                                   
+         3,508,507 LLC-load-misses           #   13.87% of all LL-cache hits   
+
+       0.782578869 seconds time elapsed
+
+BackoffLock Time taken for 8 threads with mean 100 is :604
+8000
+ 
+ Performance counter stats for 'java TTASBackoffLock 8 100':
+
+       436,876,254 L1-dcache-loads                                             
+        64,945,073 L1-dcache-load-misses     #   14.87% of all L1-dcache hits  
+        23,321,309 LLC-loads                                                   
+         3,073,761 LLC-load-misses           #   13.18% of all LL-cache hits   
+
+       0.664604134 seconds time elapsed
+
+TASLock Time taken for 16 threads with mean 100 is :1191
+16000
+ 
+ Performance counter stats for 'java TASLock 16 100':
+
+       820,675,711 L1-dcache-loads                                             
+       106,843,669 L1-dcache-load-misses     #   13.02% of all L1-dcache hits  
+        38,033,582 LLC-loads                                                   
+         5,921,592 LLC-load-misses           #   15.57% of all LL-cache hits   
+
+       1.259394145 seconds time elapsed
+
+TTASLock Time taken for 16 threads with mean 100 is :1166
+16000
+ 
+ Performance counter stats for 'java TTASLock 16 100':
+
+       811,159,084 L1-dcache-loads                                             
+       105,419,815 L1-dcache-load-misses     #   13.00% of all L1-dcache hits  
+        37,212,166 LLC-loads                                                   
+         5,785,407 LLC-load-misses           #   15.55% of all LL-cache hits   
+
+       1.228192234 seconds time elapsed
+
+CLHLock Time taken for 16 threads with mean 100 is :1589
+16000
+ 
+ Performance counter stats for 'java CLHLock 16 100':
+
+     1,565,748,677 L1-dcache-loads                                             
+       126,491,848 L1-dcache-load-misses     #    8.08% of all L1-dcache hits  
+        44,650,198 LLC-loads                                                   
+         6,698,378 LLC-load-misses           #   15.00% of all LL-cache hits   
+
+       1.664877688 seconds time elapsed
+
+BackoffLock Time taken for 16 threads with mean 100 is :1289
+16000
+ 
+ Performance counter stats for 'java TTASBackoffLock 16 100':
+
+       963,334,444 L1-dcache-loads                                             
+       117,371,879 L1-dcache-load-misses     #   12.18% of all L1-dcache hits  
+        43,605,262 LLC-loads                                                   
+         6,469,329 LLC-load-misses           #   14.84% of all LL-cache hits   
+
+       1.361818934 seconds time elapsed
+
+TASLock Time taken for 32 threads with mean 100 is :2368
+32000
+ 
+ Performance counter stats for 'java TASLock 32 100':
+
+     1,272,742,300 L1-dcache-loads                                             
+       168,363,116 L1-dcache-load-misses     #   13.23% of all L1-dcache hits  
+        63,363,074 LLC-loads                                                   
+        11,152,694 LLC-load-misses           #   17.60% of all LL-cache hits   
+
+       2.429544012 seconds time elapsed
+
+TTASLock Time taken for 32 threads with mean 100 is :2303
+32000
+ 
+ Performance counter stats for 'java TTASLock 32 100':
+
+     1,261,480,482 L1-dcache-loads                                             
+       166,037,984 L1-dcache-load-misses     #   13.16% of all L1-dcache hits  
+        61,249,273 LLC-loads                                                   
+        11,211,412 LLC-load-misses           #   18.30% of all LL-cache hits   
+
+       2.365189165 seconds time elapsed
+
+CLHLock Time taken for 32 threads with mean 100 is :2790
+32000
+ 
+ Performance counter stats for 'java CLHLock 32 100':
+
+     1,954,347,172 L1-dcache-loads                                             
+       199,611,023 L1-dcache-load-misses     #   10.21% of all L1-dcache hits  
+        73,717,968 LLC-loads                                                   
+        13,100,958 LLC-load-misses           #   17.77% of all LL-cache hits   
+
+       2.855250553 seconds time elapsed
+
+BackoffLock Time taken for 32 threads with mean 100 is :2856
+32000
+ 
+ Performance counter stats for 'java TTASBackoffLock 32 100':
+
+     2,171,455,583 L1-dcache-loads                                             
+       192,267,087 L1-dcache-load-misses     #    8.85% of all L1-dcache hits  
+        74,166,321 LLC-loads                                                   
+        12,360,897 LLC-load-misses           #   16.67% of all LL-cache hits   
+
+       2.918900394 seconds time elapsed
+
